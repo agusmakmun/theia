@@ -1,0 +1,17 @@
+{
+  "name": "my-theia-app",
+  "version": "1.0.0",
+  "description": "A simple Eclipse Theia application",
+  "engines": {
+    "node": ">=14.18.0",
+    "yarn": ">=1.7.0 <2"
+  },
+  "dependencies": {
+    "@theia/core": "latest",
+    "@theia/monaco": "latest"
+  },
+  "scripts": {
+    "start": "theia start",
+    "build": "theia build"
+  }
+}
